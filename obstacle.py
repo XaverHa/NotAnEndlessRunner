@@ -3,7 +3,7 @@ import random
 import constants as c
 
 class Obstacle(pg.sprite.Sprite):
-    def __init__(self, speed=1):
+    def __init__(self, speed=7.5):
         super().__init__()  # Required for Sprite subclassing
         self.speed = speed
 
@@ -27,5 +27,12 @@ class Obstacle(pg.sprite.Sprite):
         self.rect.left = c.SCREEN_WIDTH + random.randint(0, 100)
         self.rect.bottom = c.SCREEN_HEIGHT * 0.7
 
-    def update(self):
+        self.collided = False
+
+    def update(self, player):
         self.rect.x -= self.speed
+        self.check_collision(player)
+
+    def check_collision(self,player):
+        if player.rect.colliderect(self.rect):
+            self.collided = True
