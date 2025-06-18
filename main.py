@@ -22,8 +22,8 @@ game_over = False
 game_over_time = None
 score = 0
 last_score_time = pg.time.get_ticks()
-
 large_font = pg.font.Font('freesansbold.ttf', 40)
+#chatgpt
 def draw_text(text, font, text_col, x,y):
     img = font.render(text, True, text_col)
     screen.blit(img, (x,y))
@@ -36,8 +36,8 @@ def scale_speed(score, base_speed=7.5, max_speed=25.0, growth_rate=1.015, scale=
 def get_spawn_cooldown(speed, min_spacing_px=start_cooldown):
     frames_needed = min_spacing_px / speed  # How many frames to cover spacing
     return int(frames_needed * (1000 / 60))  # Convert to ms (assuming 60 FPS)
-
-
+#end of gpt
+offset_float = random.uniform(0.7, 1.3)
 
 
 running = True
@@ -60,9 +60,16 @@ while running:
         obstacle_speed = scale_speed(score)
         obstacle_spawn_cooldown = get_spawn_cooldown(obstacle_speed)
 
-        if pg.time.get_ticks() - last_obstacle_spawned > obstacle_spawn_cooldown:
+        if pg.time.get_ticks() - last_obstacle_spawned > obstacle_spawn_cooldown * offset_float:
             obstacles.add(Obstacle(speed=obstacle_speed))
             last_obstacle_spawned = pg.time.get_ticks()
+            if random.randint(1,3) == 2:
+                obstacles.add(Obstacle(speed=obstacle_speed, offset_x=int(50* offset_float)))
+            if random.randint(1,3) == 3:
+                obstacles.add(Obstacle(speed=obstacle_speed ,offset_x=int(50* offset_float)))
+            offset_float = random.uniform(0.7, 1.3)
+
+
 
         obstacles.draw(screen)
         for obstacle in obstacles:
