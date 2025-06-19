@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="- didn't change progression but&#10;- added randomness with close to no overlaps&#10;- added destroy_if_offscreen for performance&#10;&#10;- assets pictures and music&#10;- reset button&#10;- than I am done">
-      <change afterPath="$PROJECT_DIR$/TimePeriod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+    <list default="true" id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="working prototype with assets before was without assets but more assets pictures and music&#10;- display more information&#10;- display time periods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obstacle.py" beforeDir="false" afterPath="$PROJECT_DIR$/obstacle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +24,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "XaverHa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;XaverHa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/XaverHa/NotAnEndlessRunner.git",
-    "accountId": "cefe74ce-4fdc-4a78-a578-c7f72cabccec"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/XaverHa/NotAnEndlessRunner.git&quot;,
+    &quot;accountId&quot;: &quot;cefe74ce-4fdc-4a78-a578-c7f72cabccec&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -50,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.TimePeriod.executor": "Run",
-    "Python.constants.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.obstacle.executor": "Run",
-    "Python.player.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/xaver/PycharmProjects/FelixYTDownloader",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.TimePeriod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.constants.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.obstacle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xaver/PycharmProjects/FelixYTDownloader&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,6 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750157854600</updated>
       <workItem from="1750157855668" duration="34999000" />
+      <workItem from="1750279073822" duration="3047000" />
+      <workItem from="1750330537245" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="before I was drunk&#10;after this is drunk me">
       <option name="closed" value="true" />
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750246310511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working prototype with assets before was without assets but more assets pictures and music&#10;- display more information&#10;- display time periods">
+      <option name="closed" value="true" />
+      <created>1750280415010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750280415010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +157,8 @@
     <MESSAGE value="not fully sure what I did I am have drunk&#10;I think I did:&#10;- obstacles spawn over time, with cooldown, an a start cooldown&#10;- added a large game over font and text when game over&#10;- added collision and game over logic&#10;&#10;- next is timer and progression&#10;- assets pictures and music&#10;- than I am done" />
     <MESSAGE value="- added score and progression&#10;but spawning needs randomness!!!&#10;progression should be slower&#10;&#10;- assets pictures and music&#10;- reset button&#10;- than I am done" />
     <MESSAGE value="- didn't change progression but&#10;- added randomness with close to no overlaps&#10;- added destroy_if_offscreen for performance&#10;&#10;- assets pictures and music&#10;- reset button&#10;- than I am done" />
-    <option name="LAST_COMMIT_MESSAGE" value="- didn't change progression but&#10;- added randomness with close to no overlaps&#10;- added destroy_if_offscreen for performance&#10;&#10;- assets pictures and music&#10;- reset button&#10;- than I am done" />
+    <MESSAGE value="working prototype with assets before was without assets but more assets pictures and music&#10;- display more information&#10;- display time periods" />
+    <option name="LAST_COMMIT_MESSAGE" value="working prototype with assets before was without assets but more assets pictures and music&#10;- display more information&#10;- display time periods" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NotAnEndlessRunner$constants.coverage" NAME="constants Coverage Results" MODIFIED="1750163775094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -158,6 +166,6 @@
     <SUITE FILE_PATH="coverage/NotAnEndlessRunner$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1750266078173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FelixYTDownloader" />
     <SUITE FILE_PATH="coverage/NotAnEndlessRunner$player.coverage" NAME="player Coverage Results" MODIFIED="1750274258627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NotAnEndlessRunner$TimePeriod.coverage" NAME="TimePeriod Coverage Results" MODIFIED="1750274162017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NotAnEndlessRunner$main.coverage" NAME="main Coverage Results" MODIFIED="1750279000383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NotAnEndlessRunner$main.coverage" NAME="main Coverage Results" MODIFIED="1750330597365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

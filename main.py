@@ -4,6 +4,7 @@ from TimePeriod import TimePeriod
 from obstacle import Obstacle
 from player import Player
 import random
+import json
 import time
 
 pg.init()
@@ -11,7 +12,7 @@ clock = pg.time.Clock()
 screen = pg.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
 player = Player()
 pg.mixer.init()
-pg.mixer.music.set_volume(0.1)
+pg.mixer.music.set_volume(0.4)
 
 
 floor = pg.rect.Rect(0, c.SCREEN_HEIGHT * 0.9 , c.SCREEN_WIDTH, 10)
@@ -44,9 +45,11 @@ def get_spawn_cooldown(speed, min_spacing_px=start_cooldown):
 offset_float = random.uniform(0.7, 1.3)
 
 #chatgpt
+with open("assets_data.json", "r") as f:
+    assets_data = json.load(f)
 
 periods = []
-for period_data in c.ASSETS:
+for period_data in assets_data:
     period = TimePeriod(
         name=period_data["timeperiod"],
         background=period_data["background"],
