@@ -5,6 +5,14 @@
     "character": "assets/images/player/early60s_char2.png",
     "songs": [
       {
+        "file": "assets/music/temp.mp3",
+        "artist": "The Beatles",
+        "album": "Please Please Me",
+        "year": 1963,
+        "title": "She Loves You",
+        "duration": 30
+      },
+      {
         "file": "assets/music/beatles_twist_and_shout.mp3",
         "artist": "The Beatles",
         "album": "Please Please Me",
