@@ -27,7 +27,23 @@
         "year": 1963,
         "title": "Love Me Do",
         "duration": 30
-      }
+      },
+      {
+        "file": "assets/music/temp.mp3",
+        "artist": "The Beatles",
+        "album": "A Hard Day's Night",
+        "year": 1964,
+        "title": "A Hard Day's Night",
+        "duration": 30
+      },
+      {
+        "file": "assets/music/temp.mp3",
+        "artist": "The Animals",
+        "album": "The Animals",
+        "year": 1964,
+        "titel": "House of the Rising Sun",
+        "duration": 30,
+      },
     ],
     "obstacles": [
       "assets/images/obstacles/old_radio.png",
