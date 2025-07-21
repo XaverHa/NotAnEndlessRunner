@@ -142,7 +142,200 @@
         "year": 1967,
         "title": "Light My Fire",
         "duration": 35
+      },
+      {
+        "file": "assets/music/ADayInTheLife.mp3",
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": 1967,
+        "title": "A Day In The Life",
+        "duration": 70
+      },
+      {
+        "file": "assets/music/PeopleAreStrange.mp3",
+        "artist": "The Doors",
+        "album": "Strange Days",
+        "year": 1967,
+        "title": "People are Strange",
+        "duration": 55
+      },
+      {
+        "file": "assets/music/NightsInWhiteSatin.mp3",
+        "artist": "The Moody Blues",
+        "album": "Days Future Past",
+        "year": 1967,
+        "title": "Nights In White Satin",
+        "duration": 36
+      },
+      {
+        "file": "assets/music/BackInTheUSSR.mp3",
+        "artist": "The Beatles",
+        "album": "The Beatles(White Album)",
+        "year": 1968,
+        "title": "Back in the U.S.S.R",
+        "duration": 45
+      },
+      {
+        "file": "assets/music/AllAlongTheWatchtower.mp3",
+        "artist": "Jimi Hendrix",
+        "album": "Electric Ladyland",
+        "year": 1968,
+        "title": "All Along the Watchtower",
+        "duration": 68
+      },
+      {
+        "file": "assets/music/BornToBeWild.mp3",
+        "artist": "Steppenwolf",
+        "album": "Steppenwolf",
+        "year": 1968,
+        "title": "Born To Be Wild",
+        "duration": 45
+      },
+      {
+        "file": "assets/music/WhiteRoom.mp3",
+        "artist": "Cream",
+        "album": "Wheels Of Fire",
+        "year": 1968,
+        "title": "White Room",
+        "duration": 40
+      },
+      {
+        "file": "assets/music/WhileMyGuitarGentlyWeeps.mp3",
+        "artist": "The Beatles",
+        "album": "The Beatles (White Album)",
+        "year": 1968,
+        "title": "While My Guitar Gently Weeps",
+        "duration": 50
+      },
+      {
+        "file": "assets/music/SympathyfortheDevil.mp3",
+        "artist": "The Rolling Stones",
+        "album": "Beggars Banquet",
+        "year": 1968,
+        "title": "Sympathy for the Devil",
+        "duration": 50
+      },
+      {
+        "file": "assets/music/ThePusher.mp3",
+        "artist": "Steppenwolf",
+        "album": "Steppenwolf",
+        "year": 1968,
+        "title": "The Pusher",
+        "duration": 42
+      },
+      {
+        "file": "assets/music/TimeoftheSeason.mp3",
+        "artist": "The Zombies",
+        "album": "Odessey and Oracle",
+        "year": 1968,
+        "title": "Time of the Season",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/FivetoOne.mp3",
+        "artist": "The Doors",
+        "album": "Waiting for the Sun",
+        "year": 1968,
+        "title": "Five to One",
+        "duration": 80
+      },
+      {
+        "file": "assets/music/GoodTimesBadTimes.mp3",
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin",
+        "year": 1969,
+        "title": "Good Times Bad Times",
+        "duration": 30
+      },
+      {
+        "file": "assets/music/GimmeShelter.mp3",
+        "artist": "The Rolling Stones",
+        "album": "Let It Bleed",
+        "year": 1969,
+        "title": "Gimme Shelter",
+        "duration": 85
+      },
+      {
+        "file": "assets/music/WholeLottaLove.mp3",
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin II",
+        "year": 1969,
+        "title": "Whole Lotta Love",
+        "duration": 80
+      },
+      {
+        "file": "assets/music/ComeTogether.mp3",
+        "artist": "The Beatles",
+        "album": "Abbey Road",
+        "year": 1969,
+        "title": "Come Together",
+        "duration": 35
+      },
+      {
+        "file": "assets/music/SpaceOddity.mp3",
+        "artist": "David Bowie",
+        "album": "Space Oddity",
+        "year": 1969,
+        "title": "Space Oddity",
+        "duration": 55
+      },
+      {
+        "file": "assets/music/21stCenturySchizoidMan.mp3",
+        "artist": "King Crimson",
+        "album": "In the Court of the Crimson King",
+        "year": 1969,
+        "title": "21st Century Schizoid Man",
+        "duration": 32
+      },
+      {
+        "file": "assets/music/Ohio.mp3",
+        "artist": "Crosby, Stills, Nash & Young",
+        "album": "Deja Vu",
+        "year": 1970,
+        "title": "Ohio",
+        "duration": 50
+      },
+      {
+        "file": "assets/music/WaitingfortheSun.mp3",
+        "artist": "The Doors",
+        "album": "Morrison Hotel",
+        "year": 1970,
+        "title": "Waiting for the Sun",
+        "duration": 45
+      },
+      {
+        "file": "assets/music/ImmigrantSong.mp3",
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin III",
+        "year": 1970,
+        "title": "Immigrant Song",
+        "duration": 51
+      },
+      {
+        "file": "assets/music/Layla.mp3",
+        "artist": "Derek and the Dominos",
+        "album": "Layla and Other Assorted Love Songs",
+        "year": 1970,
+        "title": "Layla",
+        "duration": 52
+      },
+      {
+        "file": "assets/music/Paranoid.mp3",
+        "artist": "Black Sabbath",
+        "album": "Paranoid",
+        "year": 1970,
+        "title": "Paranoid",
+        "duration": 65
+      },
+      {
+        "file": "assets/music/TheEnd.mp3",
+        "artist": "The Doors",
+        "album": "The Doors",
+        "year": 1967,
+        "title": "The End",
+        "duration": 722
       }
+
     ],
     "obstacles": [
       "assets/images/obstacles/peace_sign.png"
