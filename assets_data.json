@@ -2,15 +2,15 @@
   {
     "timeperiod": "early60s",
     "background": "assets/images/backgrounds/early60s_bg.png",
-    "character": "assets/images/player/early60s_char2.png",
+    "character": "assets/images/player/early60s_char.png",
     "songs": [
       {
-        "file": "assets/music/temp.mp3",
+        "file": "assets/music/SheLovesYou.mp3",
         "artist": "The Beatles",
         "album": "Please Please Me",
         "year": 1963,
         "title": "She Loves You",
-        "duration": 30
+        "duration": 20
       },
       {
         "file": "assets/music/beatles_twist_and_shout.mp3",
@@ -18,7 +18,7 @@
         "album": "Please Please Me",
         "year": 1963,
         "title": "Twist and Shout",
-        "duration": 30
+        "duration": 20
       },
       {
         "file": "assets/music/beatles_love_me_do.mp3",
@@ -26,28 +26,60 @@
         "album": "Please Please Me",
         "year": 1963,
         "title": "Love Me Do",
-        "duration": 30
+        "duration": 20
       },
       {
-        "file": "assets/music/temp.mp3",
+        "file": "assets/music/AHardDaysNight.mp3",
         "artist": "The Beatles",
         "album": "A Hard Day's Night",
         "year": 1964,
         "title": "A Hard Day's Night",
-        "duration": 30
+        "duration": 25
       },
       {
-        "file": "assets/music/temp.mp3",
+        "file": "assets/music/HouseOfTheRisingSun.mp3",
         "artist": "The Animals",
         "album": "The Animals",
         "year": 1964,
-        "titel": "House of the Rising Sun",
-        "duration": 30,
+        "title": "House of the Rising Sun",
+        "duration": 20
       },
+      {
+        "file": "assets/music/Can'tBuyMeLove.mp3",
+        "artist": "The Beatles",
+        "album": "A Hard Day's Night",
+        "year": 1964,
+        "title": "Can't Buy Me Love",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/Help.mp3",
+        "artist": "The Beatles",
+        "album": "Help!",
+        "year": 1965,
+        "title": "Help!",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/stones_satisfaction.mp3",
+        "artist": "The Rolling Stones",
+        "album": "Out of Our Heads",
+        "year": 1965,
+        "title": "(I Can't Get No) Satisfaction",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/TicketToRide.mp3",
+        "artist": "The Beatles",
+        "album": "Help",
+        "year": 1965,
+        "title": "Ticket To Ride",
+        "duration": 20
+      }
     ],
     "obstacles": [
-      "assets/images/obstacles/old_radio.png",
-      "assets/images/obstacles/vintage_car.png"
+      "assets/images/obstacles/old_radio2.png",
+      "assets/images/obstacles/vintage_car2.png"
     ]
   },
   {
@@ -56,16 +88,64 @@
     "character": "assets/images/player/late60s_char.png",
     "songs": [
       {
-        "file": "assets/music/stones_satisfaction.mp3",
+        "file": "assets/music/EleanorRigby.mp3",
+        "artist": "The Beatles",
+        "album": "Revolver",
+        "year": 1966,
+        "title": "Eleanor Rigby",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/UnderMyThumb.mp3",
         "artist": "The Rolling Stones",
-        "album": "Out of Our Heads",
-        "year": 1965,
-        "title": "(I Can't Get No) Satisfaction",
-        "duration": 40
+        "album": "Aftermath",
+        "year": 1966,
+        "title": "Under my Thumb",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/IFeelFree.mp3",
+        "artist": "Cream",
+        "album": "Fresh Cream",
+        "year": 1966,
+        "title": "I Feel Free",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/PaintItBlack.mp3",
+        "artist": "The Rolling Stones",
+        "album": "Aftermath",
+        "year": 1966,
+        "title": "Paint It, Black",
+        "duration": 20
+      },
+      {
+        "file": "assets/music/InterstellarOverdrive.mp3",
+        "artist": "Pink Floyd",
+        "album": "The Piper at the Gates of Dawn",
+        "year": 1967,
+        "title": "Interstellar Overdrive",
+        "duration": 44
+      },
+      {
+        "file": "assets/music/BreakonThrough.mp3",
+        "artist": "The Doors",
+        "album": "The Doors",
+        "year": 1967,
+        "title": "Break on Through",
+        "duration": 30
+      },
+      {
+        "file": "assets/music/LightMyFire.mp3",
+        "artist": "The Doors",
+        "album": "The Doors",
+        "year": 1967,
+        "title": "Light My Fire",
+        "duration": 35
       }
     ],
     "obstacles": [
-      "assets/images/obstacles/flower_power.png"
+      "assets/images/obstacles/peace_sign.png"
     ]
   }
 ]

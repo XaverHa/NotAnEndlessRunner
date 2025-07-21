@@ -12,7 +12,7 @@ clock = pg.time.Clock()
 screen = pg.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
 player = Player()
 pg.mixer.init()
-pg.mixer.music.set_volume(0.4)
+pg.mixer.music.set_volume(0.2)
 
 
 floor = pg.rect.Rect(0, c.SCREEN_HEIGHT * 0.9 , c.SCREEN_WIDTH, 10)
@@ -116,7 +116,8 @@ while running:
 
         draw_text(f"Score: {score}", large_font, (255,255,255), 20,0)
         '''
-        my code the new is fully gpt
+        the new code is fully gpt
+        this was mine
         obstacle_speed = scale_speed(score)
         obstacle_spawn_cooldown = get_spawn_cooldown(obstacle_speed)
 
@@ -144,9 +145,9 @@ while running:
 
             # Random chance for a second or third obstacle with x-offset
             if random.randint(1, 3) == 2:
-                obstacles.add(Obstacle(image=obstacle_image, speed=obstacle_speed, offset_x=int(50 * offset_float)))
-            if random.randint(1, 3) == 3:
-                obstacles.add(Obstacle(image=obstacle_image, speed=obstacle_speed, offset_x=int(100 * offset_float)))
+                obstacles.add(Obstacle(image=obstacle_image, speed=obstacle_speed, offset_x=int(90)))
+            if random.randint(1, 5) == 3:
+                obstacles.add(Obstacle(image=obstacle_image, speed=obstacle_speed, offset_x=int(180)))
 
             # Update time and offset for next spawn
             last_obstacle_spawned = pg.time.get_ticks()
@@ -167,7 +168,7 @@ while running:
             for obstacle in obstacles:
                 obstacle.kill()
         draw_text("GAME OVER", large_font, (255, 255, 255), c.SCREEN_WIDTH * 0.35, c.SCREEN_HEIGHT // 2 - 100)
-        if pg.time.get_ticks() - game_over_time > 5000:
+        if pg.time.get_ticks() - game_over_time > 2000:
             game_over = False
             game_over_time = None
 
@@ -185,7 +186,7 @@ while running:
 
     #if player.rect.y + 100 == c.SCREEN_HEIGHT * 0.7:
         #player.jump_counter = 0
-    if player.rect.bottom >= c.SCREEN_HEIGHT * 0.9 and player.y_change <= 0:
+    if player.rect.bottom >= c.SCREEN_HEIGHT * 0.9 -20 and player.y_change <= 0:
         player.rect.bottom = c.SCREEN_HEIGHT * 0.9
         player.jump_counter = 0
 

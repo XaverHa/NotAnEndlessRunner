@@ -59,9 +59,12 @@ class TimePeriod:
 
     def draw_song_info(self, screen, font):
         if self.current_song:
-            text = f"{self.current_song['year']} - {self.current_song['title']}"
-            label = font.render(text, True, (255, 255, 255))
-            screen.blit(label, (20, 40))
+            band = f"{self.current_song['artist']} - {self.current_song['title']}"
+            year = f"{self.current_song['year']} - {self.current_song['album']}"
+            upper = font.render(band, True, (255, 255, 255))
+            lower = font.render(year, True, (255, 255, 255))
+            screen.blit(upper, (20, 40))
+            screen.blit(lower, (20, 80))
 
     def get_next_obstacle(self):
         if not self.obstacle_images:

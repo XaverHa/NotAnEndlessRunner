@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="changed data into a json&#10;- complete the assets songs backgrounds obstacles players&#10;- fixe the abbey road thing in one background&#10;- display more information&#10;- display time periods">
+      <change beforePath="$PROJECT_DIR$/.idea/NotAnEndlessRunner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NotAnEndlessRunner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimePeriod.py" beforeDir="false" afterPath="$PROJECT_DIR$/TimePeriod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/backgrounds/late60s_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/backgrounds/late60s_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/player/early60s_char.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player/early60s_char.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/player/early60s_char2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player/early60s_char2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/player/late60s_char.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player/late60s_char.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Break on Through (To the Other Side).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/BreakonThrough.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Cream - I Feel Free (Original Music Video, 1966).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/IFeelFree.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Eleanor Rigby (Remastered 2015).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/EleanorRigby.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Light My Fire (2017 Remaster).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/LightMyFire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Pink Floyd - Interstellar Overdrive (Official Audio).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/InterstellarOverdrive.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/She Loves You (Remastered 2009).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/SheLovesYou.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Animals - House Of The Rising Sun (Music Video) [4K HD].mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/HouseOfTheRisingSun.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Beatles - A Hard Day's Night.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/AHardDaysNight.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Beatles - Can't Buy Me Love.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/Can'tBuyMeLove.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Beatles - Help!.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/Help.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Rolling Stones - Paint It, Black (Official Lyric Video).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/PaintItBlack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/The Rolling Stones - Under My Thumb (Official Lyric Video).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/UnderMyThumb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Ticket To Ride (Remastered 2015).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/TicketToRide.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +43,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -31,8 +52,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:/XaverHa/NotAnEndlessRunner.git&quot;,
-    &quot;accountId&quot;: &quot;cefe74ce-4fdc-4a78-a578-c7f72cabccec&quot;
+    &quot;url&quot;: &quot;https://github.com/XaverHa/NotAnEndlessRunner.git&quot;,
+    &quot;accountId&quot;: &quot;062ab3c9-a206-4d1d-89aa-b6c934f1e389&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -58,7 +79,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xaver/PycharmProjects/FelixYTDownloader&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xaver/PycharmProjects/NotAnEndlessRunner/assets/images/player&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,13 +88,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xaver\PycharmProjects\NotAnEndlessRunner\assets\images\player" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="" />
