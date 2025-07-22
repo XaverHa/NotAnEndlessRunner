@@ -26,8 +26,9 @@ max_cooldown = 100
 game_over = False
 game_over_time = None
 score = 0
+hscore = 0
 last_score_time = pg.time.get_ticks()
-large_font = pg.font.Font('freesansbold.ttf', 40)
+large_font = pg.font.Font('freesansbold.ttf', 30)
 #chatgpt
 def draw_text(text, font, text_col, x,y):
     img = font.render(text, True, text_col)
@@ -76,6 +77,12 @@ def spawn_obstacle(current_period, speed, obstacles_group):
     obstacles_group.add(new_obstacle)
 
 #end of gpt
+def check_for_highscore(score, hscore):
+    if score <= hscore:
+        return hscore
+    if score >= hscore:
+        return score
+
 
 running = True
 while running:
@@ -113,7 +120,9 @@ while running:
         if current_time - last_score_time > score_cooldown:
             score += 1
             last_score_time = current_time
+            hscore = check_for_highscore(score, hscore)
 
+        draw_text(f" HS: {hscore}", large_font, (255,255,255), 600, 0)
         draw_text(f"Score: {score}", large_font, (255,255,255), 20,0)
         '''
         the new code is fully gpt

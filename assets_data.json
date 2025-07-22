@@ -79,7 +79,8 @@
     ],
     "obstacles": [
       "assets/images/obstacles/old_radio2.png",
-      "assets/images/obstacles/vintage_car2.png"
+      "assets/images/obstacles/vintage_car2.png",
+      "assets/images/obstacles/TV.png"
     ]
   },
   {
@@ -338,7 +339,9 @@
 
     ],
     "obstacles": [
-      "assets/images/obstacles/peace_sign.png"
+      "assets/images/obstacles/peace_sign.png",
+      "assets/images/obstacles/guitar.png",
+      "assets/images/obstacles/amp.png"
     ]
   }
 ]

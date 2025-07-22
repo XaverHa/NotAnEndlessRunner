@@ -63,8 +63,8 @@ class TimePeriod:
             year = f"{self.current_song['year']} - {self.current_song['album']}"
             upper = font.render(band, True, (255, 255, 255))
             lower = font.render(year, True, (255, 255, 255))
-            screen.blit(upper, (20, 40))
-            screen.blit(lower, (20, 80))
+            screen.blit(upper, (20, 30))
+            screen.blit(lower, (20, 60))
 
     def get_next_obstacle(self):
         if not self.obstacle_images:
