@@ -42,7 +42,7 @@
         "album": "The Animals",
         "year": 1964,
         "title": "House of the Rising Sun",
-        "duration": 20
+        "duration": 33
       },
       {
         "file": "assets/music/Can'tBuyMeLove.mp3",
@@ -66,7 +66,7 @@
         "album": "Out of Our Heads",
         "year": 1965,
         "title": "(I Can't Get No) Satisfaction",
-        "duration": 20
+        "duration": 22
       },
       {
         "file": "assets/music/TicketToRide.mp3",
@@ -163,7 +163,7 @@
       {
         "file": "assets/music/NightsInWhiteSatin.mp3",
         "artist": "The Moody Blues",
-        "album": "Days Future Past",
+        "album": "Days of Future Passed",
         "year": 1967,
         "title": "Nights In White Satin",
         "duration": 36
@@ -270,7 +270,7 @@
         "album": "Abbey Road",
         "year": 1969,
         "title": "Come Together",
-        "duration": 35
+        "duration": 78
       },
       {
         "file": "assets/music/SpaceOddity.mp3",
@@ -286,7 +286,7 @@
         "album": "In the Court of the Crimson King",
         "year": 1969,
         "title": "21st Century Schizoid Man",
-        "duration": 32
+        "duration": 33
       },
       {
         "file": "assets/music/Ohio.mp3",

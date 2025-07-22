@@ -10,6 +10,7 @@ import time
 pg.init()
 clock = pg.time.Clock()
 screen = pg.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
+pg.display.set_caption("Not An Endless Runner")
 player = Player()
 pg.mixer.init()
 pg.mixer.music.set_volume(0.2)

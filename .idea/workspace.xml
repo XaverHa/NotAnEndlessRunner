@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="completed 60s&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- high score&#10;- text sometimes outside of window&#10;- ending credits&#10;- display triva&#10;- more images / verity&#10;&#10;- main menu&#10;- esc menu&#10;- options menu">
+    <list default="true" id="3666a3ee-5e26-43d8-97a6-0f0f4f9ccbc2" name="Changes" comment="checked of:&#10;- high score&#10;- text sometimes outside of window&#10;- more images / verity&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- ending credits&#10;- display triva&#10;&#10;&#10;- main menu&#10;- esc menu&#10;- options menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePeriod.py" beforeDir="false" afterPath="$PROJECT_DIR$/TimePeriod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753110862275</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="checked of:&#10;- high score&#10;- text sometimes outside of window&#10;- more images / verity&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- ending credits&#10;- display triva&#10;&#10;&#10;- main menu&#10;- esc menu&#10;- options menu">
+      <option name="closed" value="true" />
+      <created>1753218750950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753218750950</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +199,8 @@
     <MESSAGE value="changed data into a json&#10;- complete the assets songs backgrounds obstacles players&#10;- fixe the abbey road thing in one background&#10;- display more information&#10;- display time periods" />
     <MESSAGE value="tons of changes, fixes, everything, overhauls etc&#10;too much to mention&#10;&#10;still songs missing" />
     <MESSAGE value="completed 60s&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- high score&#10;- display triva&#10;- text sometimes outside of window&#10;- more images / verity&#10;- ending credits &#10;&#10;- main menu&#10;- esc menu&#10;- options menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed 60s&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- high score&#10;- display triva&#10;- text sometimes outside of window&#10;- more images / verity&#10;- ending credits &#10;&#10;- main menu&#10;- esc menu&#10;- options menu" />
+    <MESSAGE value="checked of:&#10;- high score&#10;- text sometimes outside of window&#10;- more images / verity&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- ending credits&#10;- display triva&#10;&#10;&#10;- main menu&#10;- esc menu&#10;- options menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked of:&#10;- high score&#10;- text sometimes outside of window&#10;- more images / verity&#10;&#10;still songs missing: 70s, 80s, 90s, 00s, 23&#10;- ending credits&#10;- display triva&#10;&#10;&#10;- main menu&#10;- esc menu&#10;- options menu" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NotAnEndlessRunner$constants.coverage" NAME="constants Coverage Results" MODIFIED="1750163775094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
